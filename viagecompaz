@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Viagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Viagens</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="destinations">
+            <h2>Destinos Populares</h2>
+            <div class="destination">
+                <img src="destination1.jpg" alt="Destino 1">
+                <h3>Nome do Destino</h3>
+                <p>Descrição curta do destino...</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <!-- Adicione mais destinos conforme necessário -->
+        </section>
+        <section class="blog">
+            <h2>Blog de Viagens</h2>
+            <div class="blog-post">
+                <img src="blogpost1.jpg" alt="Post do Blog">
+                <h3>Título do Post do Blog</h3>
+                <p>Resumo do post do blog...</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <!-- Adicione mais posts do blog conforme necessário -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Explore Viagens. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.destinations {
+    margin-bottom: 20px;
+}
+
+.destination {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.destination h3 {
+    margin-top: 0;
+}
+
+.destination a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.destination a:hover {
+    text-decoration: underline;
+}
+
+.blog {
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.blog-post h3 {
+    margin-top: 0;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
